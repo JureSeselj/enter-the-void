@@ -9,7 +9,7 @@ import game
 
 # Global constant list of winning cargo items in order
 WINNING_CARGO = ['Eclipse Shield Cygnus', 'Anti-Gravity Device',
-                 'Galaxy Transform', 'Tianzhou Device', 'SpaceX Mines']
+                 'Galaxy Translator', 'Tianzhou Device', 'SpaceX Mines']
 
 
 def quit_out():
@@ -193,3 +193,34 @@ def get_name(name_in_question):
             if name_in_question == 'ship name':
                 name = 'the ' + name
             return name
+
+
+def decide_on_items():
+    """
+    Asks the player to choose three items out of potential 5.
+    Asks player to choose items and presents a shrinking list
+    as they pick more. Appends a new list that is used for the
+    Player instance.
+    Parameters: No parameters.
+    Returns:
+    cargo (list of str): Returns cargo list which is used to
+    instantiate the Player instance for the game.
+    """
+    print('\nOn your journey you will need to take some items for perilous '
+          'situations.')
+    potential_cargo_items = ['Eclipse Shield Cygnus', 'Anti-Gravity Device',
+                             'Galaxy Translator', 'Tianzhou Device', 
+                             'SpaceX Mines']
+    cargo = []
+    counter = 1
+    while counter < 4:
+        print('\nHere are the list of items you can still take:\n')
+        for potential_cargo_item, i in zip(potential_cargo_items,
+                                           range(len(potential_cargo_items))):
+            print(f'{i + 1}) {potential_cargo_item}')
+        cargo_choice = validate_initial_cargo_choices(potential_cargo_items)
+        cargo.append(potential_cargo_items[cargo_choice])
+        potential_cargo_items.remove(potential_cargo_items[cargo_choice])
+        counter += 1
+
+    return cargo
