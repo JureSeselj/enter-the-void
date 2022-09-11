@@ -286,17 +286,14 @@ OTHER_DICT = {'instruct':
 def retrieve_scenario_text(player_object, scenario, conclusion_number):
     """
     Function builds key and prints retrieved dictionary text.
-
     Takes scenario and conclusion numbers, builds key, retrieves
     string and replaces with attributes from the Player instance.
     Then prints string.
-
     Parameters:
     player_object (Player): Provides attributes to replace parts of the
     string text.
     scenario (int): Provides first part of key for dictionary.
     conclusion_number (int): Provides second part of key for dictionary.
-
     Returns: Returns nothing but does print string.
     """
     key = str(scenario) + ',' + str(conclusion_number)
