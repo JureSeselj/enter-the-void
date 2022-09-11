@@ -166,3 +166,30 @@ def validate_scenario_choice(player_object):
                 return number
         except ValueError:
             print('Please type your option as an available number.')
+
+
+def get_name(name_in_question):
+    """
+    Asks the player to name something in their Player instance.
+    Asks the user's name for captain or ship
+    depending on argument provided and validates
+    whether that is correct by creating a while loop and checking
+    that the name is valid.
+    Parameters:
+    name_in_question (str): Either the name of the player's
+    captain or the spaceship's name.
+    Returns:
+    name (str): Returns a string which is used to develop the Player
+    instance. If the argument is the spaceship name then a 'the '
+    is added to the front of the string.
+    """
+    while True:
+        name = ((input(f'\nWhat is your {name_in_question}, captain?\n'))
+                .strip()).capitalize()
+        if len(name) > 10 or len(name) < 4 or not name.isalnum():
+            print(f'{name_in_question.capitalize()} must be between 4 and 10 '
+                  'alphanumeric characters without spaces.')
+        else:
+            if name_in_question == 'ship name':
+                name = 'the ' + name
+            return name
