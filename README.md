@@ -1,6 +1,7 @@
 # Enter The Void
 
-## Goals for this Project
+
+## Goal for this Project
 
 Enter The Void is a text-based adventure game in a science fiction setting. The game receives input from the user and through this the user navigates through a number of scenarios, either passing them and moving on to the next one or failing. There are five scenarios the player must navigate through by inputting commands and completing all five of them will result in the user completing the game. The user will choose the name of their captain, their spaceship and will decide upon 3 of 5 'cargo' to hold on their ship to potentially use throughout the game.
 
@@ -186,8 +187,7 @@ The site was deployed to Heroku using the Code Institute's mock terminal for Her
 # Credits
 
 For code inspiration, help and advice,
-* Code Institute for the deployment terminal.
-* [Code Institute](https://codeinstitute.net/ie/ "Code Institute")
+* [Code Institute](https://codeinstitute.net/ie/ "Code Institute") for the deployment terminal.
 * [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
 * [Free Code Camp](https://www.freecodecamp.org/learn)
 * [W3Schools](https://www.w3schools.com/)
