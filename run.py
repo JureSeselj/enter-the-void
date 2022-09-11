@@ -90,3 +90,31 @@ def introduction():
     """
     print(game.OTHER_DICT['intro'])
     create_player()
+
+
+def validate_initial_cargo_choices(potential_cargo):
+    """
+    Validates the initial cargo choices.
+    Asks the player to input a number and checks and
+    validates if that number for the cargo is available.
+    If not it creates a while loop where the player is
+    asked to provide a valid number.
+    Makes sure there are no value or index errors.
+    Parameters:
+    potential_cargo (list of str): List of items the player
+    can potentially still take.
+    Returns:
+    number (int): Integer which is used to index the potential
+    cargo items list outside the function.
+    """
+    while True:
+        try:
+            number = int(input('\nChoose which item you want by typing in the '
+                               'number:\n')) - 1
+            if number not in range(0, len(potential_cargo)):
+                print(f'Please choose options between 1 and '
+                      f'{len(potential_cargo)}.')
+            else:
+                return number
+        except ValueError:
+            print('Please type your option as an available number.')
