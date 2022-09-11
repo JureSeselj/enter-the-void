@@ -118,3 +118,51 @@ def validate_initial_cargo_choices(potential_cargo):
                 return number
         except ValueError:
             print('Please type your option as an available number.')
+
+
+def validate_replay_choice():
+    """
+    Validates whether player wants to replay game.
+    Validates whether the player has chosen either 'Y' or 'N'
+    for their choice in the replay function. Creates
+    while loop so player must input correctly.
+    Parameters: No parameters.
+    Returns:
+    replay_choice(chr): 'Y' or 'N' so that player can
+    replay or quit game.
+    """
+    while True:
+        replay_choice = input('Type Y for yes and N for no:\n').upper()
+        if replay_choice not in ['Y', 'N']:
+            print('\nSorry, that choice is not available.')
+        else:
+            return replay_choice
+
+
+def validate_scenario_choice(player_object):
+    """
+    Validates the player's scenario choice.
+    Validates whether the player has inputted a
+    possible scenario choice that is available to them.
+    Creates while loop so that player must input
+    a valid choice.
+    Parameters:
+    player_object (Player): Used to work out the length of the
+    list of cargo items so that the player's input can be assessed
+    against the list of available inputs.
+    Returns:
+    number (int): Returned so that the game can decide where to proceed.
+    Whether the player has progressed to the next scenario, achieved victory
+    or recieved a game over and what text is associated with that.
+    """
+    while True:
+        try:
+            number = int(input('\nPlease choose an option using the numbers '
+                               'provided:\n'))
+            if number not in range(1, len(player_object.cargo) + 3):
+                print(f'Please choose options between 1 and '
+                      f'{len(player_object.cargo) +2}.')
+            else:
+                return number
+        except ValueError:
+            print('Please type your option as an available number.')
