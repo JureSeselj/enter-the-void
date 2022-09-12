@@ -317,3 +317,18 @@ def replay():
         main()
     elif choice == 'N':
         quit_out()
+
+
+def game_over(player_object):
+    """
+    Function which is called when the player loses the game.
+    Prints game over text and allows them to
+    quit or play again by calling
+    replay function.
+    Parameters:
+    player_object (Player): Uses this to print an fstring
+    with the name of the captain inside.
+    Returns: Returns nothing.
+    """
+    print(f'\n\nCaptain {player_object.name} has died.')
+    replay()
