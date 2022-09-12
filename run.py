@@ -226,4 +226,76 @@ def decide_on_items():
     return cargo
 
 
-
+def scenario_conclusion(player_object, scenario, conclusion_number):
+    """
+    Function which acts as 'switch' to retrieve conclusion text.
+    Parameters:
+    player_object (Player): Instance of Player class
+    created by player at start of game.
+    scenario (int): Integer to identify which scenario is taking
+    place currently in the game.
+    conclusion_number (int): Integer to identify which conclusion
+    has happened based on game logic.
+    Returns: Returns nothing.
+    """
+    print('\n')
+    if scenario == 1:
+        if conclusion_number == 1:
+            game.retrieve_scenario_text(player_object, 1, 1)
+        elif conclusion_number == 2:
+            raise IndexError('This shouldn\'t be possible in the first '
+                             'scenario as the player\'s fuel can\'t decrease '
+                             'this low in the first scenario.')
+        elif conclusion_number == 3:
+            game.retrieve_scenario_text(player_object, 1, 3)
+        elif conclusion_number == 4:
+            game.retrieve_scenario_text(player_object, 1, 4)
+        elif conclusion_number == 5:
+            game.retrieve_scenario_text(player_object, 1, 5)
+    elif scenario == 2:
+        if conclusion_number == 1:
+            game.retrieve_scenario_text(player_object, 2, 1)
+        elif conclusion_number == 2:
+            raise IndexError('This shouldn\'t be possible in the first '
+                             'scenario as the player\'s fuel can\'t decrease '
+                             'this lowin the second scenario.')
+        elif conclusion_number == 3:
+            game.retrieve_scenario_text(player_object, 2, 3)
+        elif conclusion_number == 4:
+            game.retrieve_scenario_text(player_object, 2, 4)
+        elif conclusion_number == 5:
+            game.retrieve_scenario_text(player_object, 2, 5)
+    elif scenario == 3:
+        if conclusion_number == 1:
+            game.retrieve_scenario_text(player_object, 3, 1)
+        elif conclusion_number == 2:
+            game.retrieve_scenario_text(player_object, 3, 2)
+        elif conclusion_number == 3:
+            game.retrieve_scenario_text(player_object, 3, 3)
+        elif conclusion_number == 4:
+            game.retrieve_scenario_text(player_object, 3, 4)
+        elif conclusion_number == 5:
+            game.retrieve_scenario_text(player_object, 3, 5)
+    elif scenario == 4:
+        if conclusion_number == 1:
+            game.retrieve_scenario_text(player_object, 4, 1)
+        elif conclusion_number == 2:
+            game.retrieve_scenario_text(player_object, 4, 2)
+        elif conclusion_number == 3:
+            game.retrieve_scenario_text(player_object, 4, 3)
+        elif conclusion_number == 4:
+            game.retrieve_scenario_text(player_object, 4, 4)
+        elif conclusion_number == 5:
+            game.retrieve_scenario_text(player_object, 4, 5)
+    elif scenario == 5:
+        if conclusion_number == 1:
+            game.retrieve_scenario_text(player_object, 5, 1)
+        elif conclusion_number == 2:
+            game.retrieve_scenario_text(player_object, 5, 2)
+        elif conclusion_number == 3:
+            game.retrieve_scenario_text(player_object, 5, 3)
+        elif conclusion_number == 4:
+            game.retrieve_scenario_text(player_object, 5, 4)
+        elif conclusion_number == 5:
+            game.retrieve_scenario_text(player_object, 5, 5)
+    return

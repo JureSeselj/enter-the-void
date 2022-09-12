@@ -1,5 +1,5 @@
 """
-Module which contains dictionaries of strings and one
+Module contains dictionaries of strings and one
 function to access and change dictionary items.
 """
 
