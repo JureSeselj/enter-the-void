@@ -511,3 +511,69 @@ def scenario_call(player_object, scenario_number, risk_factor):
         else:
             scenario_conclusion(player_object, scenario_number, 5)
             game_over(player_object)
+
+
+class Player:
+    """
+    This is a class that holds data and has methods for the
+    player to navigate the game.
+    
+    Attributes:
+    name (str): The name of the Captain.
+    ship_name (str): The name of the spaceship.
+    cargo (list of str): Holds cargo items.
+    fuel (int): Represents spaceship's fuel reserves.
+    """
+    def __init__(self, name, ship_name, cargo):
+        """
+        The constructor for Player class.
+        
+        Parameters:
+        name (str): The name of the Captain.
+        ship_name (str): The name of the spaceship.
+        cargo (list of str): Holds cargo items.
+        """
+        self.name = name
+        self.ship_name = ship_name
+        self.cargo = cargo
+        self.fuel = 2
+
+    def use_fuel(self):
+        """
+        Function to remove 1 fuel and
+        check if player has run out.
+        
+        Parameters: No parameters.
+        
+        Returns:
+        bool: Returns True or False depending on
+        whether fuel is greater than or equal to 0.
+        This is used to decide whether a player fails or
+        passes a scenario.
+        """
+        self.fuel -= 1
+        if self.fuel >= 0:
+            return True
+        else:
+            return False
+
+    def take_chance(self, factor):
+        """
+        Decides whether player has survived risky action.
+        
+        Generates random integer between 1 and 10 and
+        then checks against factor to decide outcome.
+        
+        Parameters:
+        factor (int): Integer that increases throughout game.
+        Is checked against random integer to decide outcome.
+        
+        Returns:
+        bool: True or False to decide if the
+        player has survived the scenario or not.
+        """
+        num = random.randint(1, 10)
+        if num >= factor:
+            return True
+        else:
+            return False
