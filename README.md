@@ -11,6 +11,15 @@ The game is simple, but is designed for people who would enjoy science fiction. 
 
 Click [here](https://jureseselj.github.io/explore-the-world/) to play Enter The Void.
 
+# Table of Contents
+
+* Features
+    * Start Menu
+    * Create Player
+    * Scenario
+    * Victory and Game Over
+    
+
 ## Features
 
 * Start Menu
