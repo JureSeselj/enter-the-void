@@ -299,3 +299,21 @@ def scenario_conclusion(player_object, scenario, conclusion_number):
         elif conclusion_number == 5:
             game.retrieve_scenario_text(player_object, 5, 5)
     return
+
+
+def replay():
+    """
+    Function which acts as 'switch' for replaying the game.
+    This function calls the validation function for
+    the player's replay choice and then calls a function to
+    go to the start menu or quit the game (and terminal)
+    entirely.
+    Parameters: No parameters.
+    Returns: Returns nothing.
+    """
+    print('Would you like to play again?')
+    choice = validate_replay_choice()
+    if choice == 'Y':
+        main()
+    elif choice == 'N':
+        quit_out()
