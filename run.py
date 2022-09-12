@@ -442,3 +442,17 @@ def scenario_intro(number, player_object):
         print(game.INTRO_DICTIONARY['5'])
     elif number == 6:
         victory(player_object)
+
+
+def move_on():
+    """
+    Function that pauses the game.
+    
+    Waits for any input then continues when that input is delivered.
+    
+    Parameters: No parameters.
+    
+    Returns: Returns nothing.
+    """
+    input('\nPress enter to continue.\n')
+    return
