@@ -10,7 +10,7 @@ SCENARIO_DICTIONARY = {'1,1':
                        '{player_object.ship_name} out of the way\nbefore the '
                        'asteroid storm hits.\nCaptain {player_object.name} '
                        'makes the '
-                       'hyperspace jump to Sector B.',
+                       'hyperspace jump to Bianca.',
                        '1,3':
                        'Captain {player_object.name} masterfully pilots '
                        '{player_object.ship_name} through the asteroid storm,'
@@ -19,16 +19,16 @@ SCENARIO_DICTIONARY = {'1,1':
                        'skills to the limit.\nHaving survived this, '
                        'Captain {player_object.name} makes the hyperspace '
                        'jump to '
-                       'Sector B.',
+                       'Bianca.',
                        '1,4':
-                       'Captain {player_object.name} activates the Temporary '
-                       'Force'
+                       'Captain {player_object.name} activates the Eclipse '
+                       'Cygnus'
                        ' Shield they took in the cargo.\nA kinetic barrier '
                        'envelops {player_object.ship_name}, allowing it to\n'
                        'safely traverse the asteroid storm.\nFeeling rather '
                        'lucky; '
                        'Captain {player_object.name} makes the hyperspace jump'
-                       ' to Sector B.',
+                       ' to Bianca.',
                        '1,5':
                        'One after another, asteroids crash into the side of '
                        '{player_object.ship_name}.\nThe hull is eventually '
@@ -43,7 +43,7 @@ SCENARIO_DICTIONARY = {'1,1':
                        'black '
                        'hole\'s event horizon.\nBreathing a sigh of relief, '
                        'Captain\n{player_object.name} makes\nthe hyperspace '
-                       'jump to Sector C.',
+                       'jump to Cupid.',
                        '2,3':
                        'Captain {player_object.name} directs '
                        '{player_object.ship_name} on a course\nso that it '
@@ -57,7 +57,7 @@ SCENARIO_DICTIONARY = {'1,1':
                        'system\nbut Captain {player_object.name}\'s quick '
                        'thinking has saved them.\nCaptain '
                        '{player_object.name} '
-                       'makes the hyperspace jump to Sector C.',
+                       'makes the hyperspace jump to Cupid.',
                        '2,4':
                        'Captain {player_object.name} switches on the '
                        'Anti-Gravity '
@@ -67,7 +67,7 @@ SCENARIO_DICTIONARY = {'1,1':
                        'the '
                        'black hole\ninstead of towards it.\nCaptain '
                        '{player_object.name} makes the hyperspace jump to '
-                       'Sector C.',
+                       'Cupid.',
                        '2,5':
                        'Captain {player_object.name} fails to stop '
                        '{player_object.ship_name} from\nbeing pulled into the '
@@ -81,7 +81,7 @@ SCENARIO_DICTIONARY = {'1,1':
                        'it out '
                        'of range of the aliens\' antiquated weapon systems.\n'
                        'Captain {player_object.name} makes a safe hyperspace '
-                       'jump to Sector D.',
+                       'jump to Deimos.',
                        '3,2':
                        'Captain {player_object.name} tries to use '
                        '{player_object.ship_name}\'s fuel reserves\nto fly '
@@ -102,17 +102,17 @@ SCENARIO_DICTIONARY = {'1,1':
                        'before the aliens have a chance to power up their '
                        'own,\n'
                        'destroying the aliens.\nCaptain {player_object.name} '
-                       'makes the hyperspace jump to Sector D.',
+                       'makes the hyperspace jump to Deimos.',
                        '3,4':
-                       'Turning on the Galactic Translator, Captain '
+                       'Turning on the Galaxy Translator, Captain '
                        '{player_object.name} speaks with the aliens.\nIt '
                        'turns out '
-                       'they are the Bug People from Sector X, and have '
+                       'they are the Bug People from Apollo, and have '
                        'mistaken\n'
-                       'you for an agent of the Robo-Empire.\nAfter clearing '
+                       'you for an agent of the Aten-Empire.\nAfter clearing '
                        'up '
                        'the misunderstanding, {player_object.name} makes a '
-                       'quick\nhyperspace jump to Sector D.',
+                       'quick\nhyperspace jump to Deimos.',
                        '3,5':
                        'Captain {player_object.name} attempts to answer the '
                        'transmission in all\nthe space languages they know,'
@@ -127,7 +127,7 @@ SCENARIO_DICTIONARY = {'1,1':
                        'behind a planet\'s rings,\nevading the blockade\'s '
                        'sensors.\nCaptain {player_object.name} waits for '
                        'the blockade to move before making\nthe hyperspace '
-                       'jump to Sector E.',
+                       'jump to Eris.',
                        '4,2':
                        'Captain {player_object.name} attempts to move quickly '
                        'to '
@@ -150,16 +150,16 @@ SCENARIO_DICTIONARY = {'1,1':
                        'destroy the blockade itself!\nCaptain '
                        '{player_object.name} '
                        'passes the destroyed blockade\nand hyperspace jumps '
-                       'to Sector E.',
+                       'to Eris.',
                        '4,4':
                        'Thinking quickly, Captain {player_object.name} '
                        'activates\n'
-                       'the Cloaking Device in the cargo hold.\n'
+                       'the Tianzhou Device in the cargo hold.\n'
                        'Suddenly, {player_object.ship_name} '
                        'becomes invisible to the naked '
                        'eye and to sensors.\nCaptain {player_object.name} '
                        'moves the ship carefully past the blockade\nand '
-                       'hyperspace jumps to Sector E when out of their range.',
+                       'hyperspace jumps to Eris when out of their range.',
                        '4,5':
                        'A barrage of homing missiles\nfly towards '
                        '{player_object.ship_name}.\n{player_object.name}\'s '
@@ -172,12 +172,12 @@ SCENARIO_DICTIONARY = {'1,1':
                        'Using the last of {player_object.ship_name}\'s fuel '
                        'reserve,\nCaptain {player_object.name} causes the '
                        'force of '
-                       'the ship to overpower\nthe Robo-Annihilator\'s '
+                       'the ship to overpower\nthe Aten-Annihilator\'s '
                        'tractor '
-                       'beam;\nescaping from the Robo-Annihilator.\nCaptain '
+                       'beam;\nescaping from the Aten-Annihilator.\nCaptain '
                        '{player_object.name} delivers the superweapon to the '
-                       'Star '
-                       'Republic Navy,\nand after the war is '
+                       'Galaxy '
+                       'Republic Izar,\nand after the war is '
                        'won becomes Admiral {player_object.name}.',
                        '5,2':
                        'Captain {player_object.name} attempts to use the fuel '
@@ -185,58 +185,58 @@ SCENARIO_DICTIONARY = {'1,1':
                        'realises '
                        'there is no more reserve!\nThey are captured, '
                        'the superweapon is lost,\nand so is the last hope of '
-                       'the Star Republic.',
+                       'the Galaxy Republic.',
                        '5,3':
                        'Captain {player_object.name} allows themselves to be '
-                       'taken aboard the Robo-Annihilator.\nInside, they pull '
+                       'taken aboard the Aten-Annihilator.\nInside, they pull '
                        'out a concealed '
-                       'laser pistol and kill the Robo-Guards,\nrunning '
+                       'laser pistol and kill the Aten-Guards,\nrunning '
                        'through '
                        'the ship before activating its self-destruct button.\n'
                        'Captain {player_object.name} '
                        'boards {player_object.ship_name} just in time to '
                        'escape '
-                       'the\nexploding Robo-Annihilator.\nAfterwards, they '
+                       'the\nexploding Aten-Annihilator.\nAfterwards, they '
                        'deliver '
-                       'the superweapon to the Star Republic Navy,\nbecoming '
+                       'the superweapon to the Republic Izar,\nbecoming '
                        'Admiral {player_object.name} and winning the war '
-                       'against the Robo-Empire.',
+                       'against the Aten-Empire.',
                        '5,4':
                        'As {player_object.ship_name} is pulled by the tractor '
                        'beam,\nCaptain {player_object.name} releases the '
-                       'Nuclear '
+                       'SpaceX '
                        'Mines from the cargo hold.\nThe mines are pulled into '
                        'the '
-                       'hold of the Robo-Annihilator,\ncausing the '
+                       'hold of the Aten-Annihilator,\ncausing the '
                        'dreadnought to explode in a mushroom cloud.'
                        '\nThankfully, {player_object.ship_name} just escapes '
                        'the destruction and after '
-                       'delivering\nthe superweapon to the Star Republic Navy,'
+                       'delivering\nthe weapon to the Galaxy Republic Izar,'
                        '\nCaptain {player_object.name} became '
                        'known as the hero \'{player_object.name} the Daring\''
                        '\n'
                        'for their exploits in destroying the '
-                       'Robo-Annihilator.',
+                       'Aten-Annihilator.',
                        '5,5':
                        'Captain {player_object.name} is imprisoned aboard the '
-                       'Robo-Annihilator.\nThe superweapon is taken and the '
+                       'Aten-Annihilator.\nThe superweapon is taken and the '
                        'last '
                        'thing {player_object.name}\nsees before they are '
                        'executed\n'
-                       'is the capital world of the Star Republic being '
+                       'is the capital world of the Galaxy Republic being '
                        'destroyed by the superweapon.'}
 
 # Dictionary containing strings for scenario intros.
 INTRO_DICTIONARY = {'1':
-                    '\n\nAs you go to leave Sector A. A large asteroid storm '
+                    '\n\nAs you go to leave Ariel. A large asteroid storm '
                     'appears!\nYou are about to be caught in the middle of it.'
                     '\nWhat do you do?\n',
                     '2':
-                    '\n\nAs you enter Sector B, your ship starts to be pulled '
+                    '\n\nAs you enter Bianca, your ship starts to be pulled '
                     'in by a supermassive\nblack hole!\n'
                     'What do you do?\n',
                     '3':
-                    '\n\nAbout halfway through Sector C\na garbled alien '
+                    '\n\nAbout halfway through Cupid\na garbled alien '
                     'transmission comes through from a spaceship on your '
                     'radar\n'
                     'You have no idea what they want, but their heat '
@@ -244,23 +244,23 @@ INTRO_DICTIONARY = {'1':
                     'suggest they are powering up their weapons.\nWhat do you '
                     'do?\n',
                     '4':
-                    '\n\nAs you enter Sector D, you notice a blockade of '
-                    'Robo-Empire ships.\nThere`s no way you could fight them '
+                    '\n\nAs you enter Deimos, you notice a blockade of '
+                    'Aten-Empire ships.\nThere`s no way you could fight them '
                     'all.\n'
                     'What do you do?\n',
                     '5':
-                    '\n\nUpon arrival in Sector E you see your destination '
+                    '\n\nUpon arrival in Eris you see your destination '
                     'appear '
                     'after\ntyping in your encrypted password.\nThe end '
                     'of your journey seems so close now.\n'
                     'But out of nowhere their capital ship, the '
-                    'Robo-Annihilator,\n'
+                    'Aten-Annihilator,\n'
                     'appears and starts to pull you in with its '
                     'tractor beam.\nWhat do you do?\n'}
 
 # Dictionary containing strings for intructions and game introductions.
 OTHER_DICT = {'instruct':
-              '\nIn Star Traveller, you must choose the name of your\n'
+              '\nIn Enter The Void, you must choose the name of your\n'
               'captain, the name of your ship and choose a collection\nof '
               'useful '
               'items to hold in your cargo.\nYou will then have to navigate a '
@@ -273,12 +273,12 @@ OTHER_DICT = {'instruct':
               'played by inputting numbers or letters or\nstrings of text '
               'when prompted by the text on screen.',
               'intro':
-              '\n\nWelcome to Star Traveller!\n'
-              'You are a captain of the Star Republic Navy.\n'
+              '\n\nWelcome to Enter The Void!\n'
+              'You are a captain of the Galaxy Republic Izar.\n'
               'You have been tasked with delivering a superweapon\nfrom '
-              'Sector A to Sector E.\n'
-              'This will allow the Star Republic to defeat the Robo-Empire.\n'
-              'You will face many perils on your way there, but the Star '
+              'Ariel to Eris.\n'
+              'This will allow the Republic Izar to defeat the Aten-Empire.\n'
+              'You will face many perils on your way there, but the Galaxy '
               'Republic\nis relying on you!'
               '\n'}
 

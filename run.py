@@ -224,3 +224,6 @@ def decide_on_items():
         counter += 1
 
     return cargo
+
+
+
