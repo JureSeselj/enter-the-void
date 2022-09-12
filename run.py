@@ -456,3 +456,58 @@ def move_on():
     """
     input('\nPress enter to continue.\n')
     return
+
+
+def scenario_call(player_object, scenario_number, risk_factor):
+    """Function for calling a scenario for the player.
+    
+    Calls itself when a scenario is
+    completed successfully or calls game over.
+    Does this by validating players scenario choice
+    and checking it against things in the Player
+    instance.
+    
+    Parameters:
+    player_object (Player): Used to pass on to
+    other functions and to call class methods to see if they
+    return True or False.
+    scenario_number (int): Used to call other functions and
+    decide which scenario is being referred to.
+    risk_factor (int): Factor used to be increased when passed
+    into next scenario and to test against take_chance method
+    in Player instance.
+    
+    Returns: Returns nothing.
+    """
+    scenario_intro(int(scenario_number), player_object)
+    display_options(player_object)
+    number_choice = validate_scenario_choice(player_object)
+    if number_choice == len(player_object.cargo) + 1:
+        if player_object.use_fuel():
+            scenario_conclusion(player_object, scenario_number, 1)
+            move_on()
+            scenario_call(player_object, scenario_number + 1, risk_factor +
+                          2)
+        else:
+            scenario_conclusion(player_object, scenario_number, 2)
+            game_over(player_object)
+    elif number_choice == len(player_object.cargo) + 2:
+        if player_object.take_chance(risk_factor):
+            scenario_conclusion(player_object, scenario_number, 3)
+            move_on()
+            scenario_call(player_object, scenario_number + 1, risk_factor +
+                          2)
+        else:
+            scenario_conclusion(player_object, scenario_number, 5)
+            game_over(player_object)
+    elif number_choice <= len(player_object.cargo):
+        if player_object.cargo[number_choice - 1] == WINNING_CARGO[int
+           (scenario_number)-1]:
+            player_object.cargo.remove(WINNING_CARGO[int(scenario_number)-1])
+            scenario_conclusion(player_object, scenario_number, 4)
+            move_on()
+            scenario_call(player_object, scenario_number + 1, risk_factor +
+                          2)
+        else:
+            scenario_conclusion(player_object, scenario_number, 5)
+            game_over(player_object)
