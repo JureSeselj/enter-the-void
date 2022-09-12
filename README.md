@@ -58,7 +58,7 @@ In the game, after the player has decided to play the game at the start menu and
 
 The Player class model also has class methods which are used in the game. The first of these is the use_fuel method which reduces the fuel attribute by 1 and then returns either True or False. In game if True is returned then the scenario is cleared but if False is returned the player will fail the scenario and the game_over function will be called.  The second method of the Player class model is the take_chance method. This method takes an argument for the risk factor of a scenario (this is a factor that starts at 1 in the first scenario and increases by 2 each scenario until it reaches 9 in the final scenario) and generates a random integer from 1 to 10. If the randomly generated integer is larger than or equal to the risk factor then True will be returned and the player will pass the scenario but if it is less than the risk factor False will be returned and the player will fail the scenario.
 
-[Back to Top](#table-of-contents)
+[Back to Top](#goal-for-this-project)
 
 ## Imported Modules
 * random
@@ -89,7 +89,7 @@ The Player class model also has class methods which are used in the game. The fi
 * Heroku
     * Used for the deployment of the application.
 
-[Back to Top](#table-of-contents)
+[Back to Top](#goal-for-this-project)
 
 ## Testing
 
@@ -142,7 +142,7 @@ In this section, I discuss and explain what output should be displayed if the pl
 
 <img src="">
 
-[Back to Top](#table-of-contents)
+[Back to Top](#goal-for-this-project)
 
 ## Bugs
 
@@ -196,4 +196,4 @@ For code inspiration, help and advice,
 * [Lucidchart](https://www.lucidchart.com/pages/) for the flowcharts I created.
 
 
-[Back to Top](#table-of-contents)
+[Back to Top](#goal-for-this-project)
