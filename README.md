@@ -169,7 +169,7 @@ To my knowledge there are no unfixed bugs in Enter The Void.
 The site was initially developed and tested in the terminal of Gitpod. Here are the steps I took to test the application in Gitpod:
 * Type "python3 run.py" into the terminal to start the application.
 * Input and enter text, numbers and strings when asked.
-* Press ctrl-c when wanting to exit the application.
+* Press command-c when wanting to exit the application.
 
 ### GitHub
 The repository for the code was stored on GitHub. This was linked to Heroku to create the site.
@@ -196,4 +196,4 @@ For code inspiration, help and advice,
 * [Lucidchart](https://www.lucidchart.com/pages/) for the flowcharts I created.
 
 
- [Back to Top](#table-of-contents)
+[Back to Top](#table-of-contents)
