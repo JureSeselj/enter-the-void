@@ -577,3 +577,32 @@ class Player:
             return True
         else:
             return False
+
+
+def confirm_choice(question, details):
+    """
+    Function that asks the player if the specific detail is correct.
+    
+    Before creating the Player instance in the main function. This function
+    returns either True or False to break each while loop in the create_player
+    function. Also validates player's answer.
+    
+    Parameters:
+    question (str): Specific question the player must answer yes
+    or no to.
+    details (str or list of str): Either name, ship name or cargo
+    list player has chosen
+    
+    Returns:
+    bool: Either True or False to break while loop in
+    create_player function.
+    """
+    while True:
+        choice = input(f'\nYour {question}:\n{details}.\nIs this correct? '
+                       'Type Y for yes and N for no:\n').upper()
+        if choice not in ['Y', 'N']:
+            print('Sorry, that choice is not available.')
+        elif choice == 'Y':
+            return True
+        elif choice == 'N':
+            return False
