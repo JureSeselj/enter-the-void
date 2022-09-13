@@ -606,3 +606,38 @@ def confirm_choice(question, details):
             return True
         elif choice == 'N':
             return False
+
+
+def create_player():
+    """
+    Provides a series of questions which create the Player
+    instance and then calls the scenario.
+    
+    Parameters: No parameters.
+    
+    Returns: Returns nothing just creates Player instance and
+    calls scenario.
+    """
+    name_correct = False
+    ship_name_correct = False
+    cargo_items_correct = False
+    while not name_correct:
+        player_name = get_name("name")
+        name_correct = confirm_choice('Captain\'s name is', player_name)
+
+    while not ship_name_correct:
+        player_ship_name = get_name("ship name")
+        ship_name_correct = confirm_choice('Ship\'s name is', player_ship_name)
+
+    while not cargo_items_correct:
+        cargo_items = decide_on_items()
+        cargo_items_correct = confirm_choice('Cargo hold contains these items',
+                                             cargo_items)
+
+    main_player = Player(player_name, player_ship_name, cargo_items)
+
+    scenario_call(main_player, int(1), int(1))
+
+
+if __name__ == '__main__':
+    main()
