@@ -107,16 +107,18 @@ The Player class model also has class methods which are used in the game. The fi
 
 # Technologies Used
 
-* Python
-    * Used to create application with and display to terminal.
-* Lucidchart
-    * Used for the development of a flowchart to concept the ideas.
-* GitHub 
-    * Used for the repository and linked with Heroku to deploy the website.
-* Gitpod
-    * Used for development of the application.
-* Heroku
-    * Used for the deployment of the application.
+## Languages
+* [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript "JavaScript")
+* [Python](https://en.wikipedia.org/wiki/Python_(programming_language) "Python")
+
+## Tools
+* [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+* [pep8online](http://pep8online.com/ "pep8online")
+* [GitHub](https://github.com/ "GitHub")
+* [Gitpod](https://www.gitpod.io/ "Gitpod")
+* [Mockup Generator](https://techsini.com/multi-mockup/index.php "Multi Device Website Mockup Generator")
+* [Heroku](https://id.heroku.com/login "Heroku")
 
 [Back to Top](#goal-for-this-project)
 
