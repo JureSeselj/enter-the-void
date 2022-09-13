@@ -13,12 +13,29 @@ Click [here](https://jureseselj.github.io/explore-the-world/) to play Enter The 
 
 # Table of Contents
 
-* Features
-    * Start Menu
-    * Create Player
-    * Scenario
-    * Victory and Game Over
-    
+* [Features](#features)
+    * [Start Menu](#start-menu)
+    * [Create Player](#create-player)
+    * [Scenario](#scenario)
+    * [Victory and Game Over](#victory-and-game-over)
+* [Features to be Implemented](#features-to-be-implemented)
+    * [Leaderboard on Google Sheet](#leadeboard-on-google-sheet)
+    * [More Methods and Cargo](#more-methods-and-cargo)
+* [Data Model](#data-model)
+* [Imported Modules](#imported-modules)
+* [Prototype and Flowcharts](#prototype-and-flowcharts)
+    * [Pseudocode flowchart](#pseudocode-flowchart)
+    * [Function Flowchart](#function-flowchart)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+* [Test Cases](#test-cases)
+* [Bugs](#bugs)
+* [Unfixed Bugs](#unfixed-bugs)
+* [Deployment](#deployment)
+    * [Gitpod](#gitpod)
+    * [GitHub](#github)
+    * [Heroku](#heroku)
+* [Credits](#credits)    
 
 ## Features
 
@@ -51,7 +68,7 @@ Click [here](https://jureseselj.github.io/explore-the-world/) to play Enter The 
     * If they choose an option that is not 'Y' or 'N' they will be asked to provide an answer that is either 'Y' or 'N' (lowercases are capitalised).
 
 
-## Future Features
+## Features to be Implemented
 There are many features I could think to add to the game in order to make it better but decided not to due to the fact it would become increasingly complex.
 
 * Leaderboard on Google Sheet
@@ -85,7 +102,7 @@ The Player class model also has class methods which are used in the game. The fi
 
 <img src="">
 
-## Technology
+## Technologies Used
 
 * Python
     * Used to create application with and display to terminal.
