@@ -98,7 +98,7 @@ The Player class model also has class methods which are used in the game. The fi
 ## Pseudocode flowchart
 * Here is a flowchart showing how the game functions with pseudocode.
 
-<img src="">
+<img src="docs/flowchart-screenshot.png">
 
 ## Function Flowchart
 * Here is a flowchart showing how the game functions with specific reference to functions in use.
