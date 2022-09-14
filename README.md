@@ -127,6 +127,8 @@ The Player class model also has class methods which are used in the game. The fi
 * PEP8 Validator
     * This application has been run through a PEP8 validator at [pep8online](http://pep8online.com/)
 
+<img src="docs/pep8-screenshot.png">
+
 * Bug checking
     * This application has been tested to ensure that all possible scenarios are achievable and that there are no obvious bugs.
     This includes testing for index errors and value errors and making sure exception handling is done well, and that each available
