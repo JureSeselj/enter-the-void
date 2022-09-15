@@ -175,7 +175,7 @@ In this section, I discuss and explain what output should be displayed if the pl
     * Input: The player does not type in 'y' or 'Y' for yes or 'n' or 'N' for no when asked if they want to replay the game.
     * Output: The console displays the words: "Type Y for yes or N for no." and gives the player a chance to retype their choice.
 
-<img src="">
+<img src="docs/replay-game-incorrect-input.png">
 
 [Back to Top](#goal-for-this-project)
 
