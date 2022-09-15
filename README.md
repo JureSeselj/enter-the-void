@@ -7,7 +7,7 @@ Enter The Void is a text based adventure game in a science fiction settings. The
 
 The game is simple, but is designed for people who would enjoy science fiction. The games primary enjoyment comes from passing the scenarios and reading the conclusions and also from its replayability, with 23 possible different scenario conclusions that the player can receive.
 
-![Responsive Displays](/docs/%20mockup-screenshot-image.png)
+![Responsive Displays](docs/mockup-screenshot.png)
 
 Click [here](https://enter-the-void1.herokuapp.com/) to play Enter The Void.
 
