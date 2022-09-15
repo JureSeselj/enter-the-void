@@ -210,7 +210,7 @@ The site was initially developed and tested in the terminal of Gitpod. Here are 
 The repository for the code was stored on GitHub. This was linked to Heroku to create the site.
 
 ## Heroku
-The site was deployed to Heroku using the Code Institute's mock terminal for Heroku. Here is what I did to deploy my site to Heroku:
+The site was deployed to Heroku using the Code Institute mock terminal for Heroku. Here is what I did to deploy my site to Heroku:
 * Clicked on "Create new app" on Heroku account and named app and selected region as 'Europe'.
 * Added PORT : 8000 to config vars in Settings.
 * Added heroku/python and heroku/nodejs buildpacks in Settings.
@@ -227,6 +227,7 @@ For code inspiration, help and advice,
 * [W3Schools](https://www.w3schools.com/)
 * [YouTube](https://www.youtube.com/)
 * [CodePen](https://codepen.io/)
+* [Stackoverflow](https://stackoverflow.com/)
 
 
 [Back to Top](#goal-for-this-project)
