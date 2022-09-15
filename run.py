@@ -170,8 +170,8 @@ def validate_scenario_choice(player_object):
 
 def get_name(name_in_question):
     """
-    Asks the player to name something in their Player instance.
-    Asks the user's name for captain or ship
+    Ask the player to name something in their Player instance.
+    Ask the user's name for captain or ship
     depending on argument provided and validates
     whether that is correct by creating a while loop and checking
     that the name is valid.
@@ -197,8 +197,8 @@ def get_name(name_in_question):
 
 def decide_on_items():
     """
-    Asks the player to choose three items out of potential 5.
-    Asks player to choose items and presents a shrinking list
+    Ask the player to choose three items out of potential 5.
+    Ask player to choose items and presents a shrinking list
     as they pick more. Appends a new list that is used for the
     Player instance.
     Parameters: No parameters.
