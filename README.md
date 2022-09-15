@@ -103,7 +103,7 @@ The Player class model also has class methods which are used in the game. The fi
 ## Function Flowchart
 * Here is a flowchart showing how the game functions with specific reference to functions in use.
 
-<img src="">
+<img src="docs/function-flowchart.png">
 
 # Technologies Used
 
