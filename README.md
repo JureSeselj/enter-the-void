@@ -169,7 +169,7 @@ In this section, I discuss and explain what output should be displayed if the pl
     * Input: The player inputs something other than an integer for their choice of cargo.
     * Output: The console displays the words: "Please type your option as an available number." and gives the player a chance to retype their choice.
 
-<img src="">
+<img src="docs/scenario-choice-incorrect-input.png">
 
 * Replay Game Incorrect Input
     * Input: The player does not type in 'y' or 'Y' for yes or 'n' or 'N' for no when asked if they want to replay the game.
