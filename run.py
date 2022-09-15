@@ -26,7 +26,7 @@ def quit_out():
 
 def validate_start_menu_option():
     """
-    Validates player choice at start menu.
+    Validate player choice at start menu.
     Ask the player what they want to do
     at the start menu and then
     validates whether the player wants to
@@ -80,7 +80,7 @@ def instructions():
 def introduction():
     """
     Introduction to the game.
-    Introduces the user to the game if
+    Introduce the user to the game if
     they have chosen to play and then sends the
     player to create their own Player instance.
     Parameters: No parameters.
