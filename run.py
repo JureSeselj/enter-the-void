@@ -15,7 +15,7 @@ WINNING_CARGO = ['Eclipse Shield Cygnus', 'Anti-Gravity Device',
 def quit_out():
     """
     Quit application.
-    Thanks the player for playing and
+    Thank the player for playing and
     then quits the application.
     Parameters: No parameters.
     Returns: No return values.
@@ -26,8 +26,8 @@ def quit_out():
 
 def validate_start_menu_option():
     """
-    Validate player choice at start menu.
-    Ask the player what they want to do
+    Validates player choice at start menu.
+    Asks the player what they want to do
     at the start menu and then
     validates whether the player wants to
     play Enter The Void, see the instructions for
