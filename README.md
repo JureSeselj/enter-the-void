@@ -147,7 +147,7 @@ In this section, I discuss and explain what output should be displayed if the pl
     * Input: The player does not input a name as a string that is between 4 and 10 characters that are all alphanumeric and that does not have any spaces in.
     * Output: The console displays the words: "Name must be between 4 and 10 alphanumeric characters without spaces." and allows the player to try again.
 
-<img src ="">
+<img src ="docs/name-and-ship-incorrect-input.png">
 
 * Is this Correct? Incorrect Input
     * Input: After inputting a valid name, ship name or cargo list the game will ask the player to confirm their choice. The player does not type in 'Y' or 'y' for yes or 'N' or 'n' for no.
