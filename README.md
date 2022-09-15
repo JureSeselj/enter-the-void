@@ -5,7 +5,7 @@
 
 Enter The Void is a text based adventure game in a science fiction settings. The game receives input from the user and through this the user navigates through a number of scenarios, either passing them and moving on to the next one or failing. There are five scenarios the player must navigate through by inputting commands and completing all five of them will result in the user completing the game. The user will choose the name of their captain, their spaceship and will decide upon 3 of 5 'cargo' to hold on their ship to potentially use throughout the game.
 
-The game is simple, but is designed for people who would enjoy science fiction. The games primary enjoyment comes from passing the scenarios and reading the conclusions and also from its replayability, with 23 possible different scenario conclusions that the player can receive.
+The game is simple, but is designed for people who would enjoy science fiction. The games primary enjoyment comes from passing the scenarios and reading the conclusions and also from its playability, with multiple possible different scenario conclusions that the player can receive and enjoy the game.
 
 ![Responsive Displays](docs/mockup-screenshot.png)
 
@@ -177,6 +177,7 @@ In this section, I discuss and explain what output should be displayed if the pl
 
 ![Test Replay](docs/replay-game-incorrect-input.png)
 
+
 [Back to Top](#goal-for-this-project)
 
 # Bugs
@@ -200,18 +201,15 @@ To my knowledge there are no unfixed bugs in Enter The Void.
 # Deployment
 
 ## Gitpod
-
 The site was initially developed and tested in the terminal of Gitpod. Here are the steps I took to test the application in Gitpod:
 * Type "python3 run.py" into the terminal to start the application.
 * Input and enter text, numbers and strings when asked.
 * Press command-c when wanting to exit the application.
 
 ## GitHub
-
 The repository for the code was stored on GitHub. This was linked to Heroku to create the site.
 
 ## Heroku
-
 The site was deployed to Heroku using the Code Institute's mock terminal for Heroku. Here is what I did to deploy my site to Heroku:
 * Clicked on "Create new app" on Heroku account and named app and selected region as 'Europe'.
 * Added PORT : 8000 to config vars in Settings.
