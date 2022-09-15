@@ -27,6 +27,8 @@ Click [here](https://jureseselj.github.io/explore-the-world/) to play Enter The 
     * [Pseudocode flowchart](#pseudocode-flowchart)
     * [Function Flowchart](#function-flowchart)
 * [Technologies Used](#technologies-used)
+    * [Languages](#languages)
+    * [Tools](#tools)
 * [Testing](#testing)
 * [Test Cases](#test-cases)
 * [Bugs](#bugs)
