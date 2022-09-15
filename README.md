@@ -128,7 +128,7 @@ The Player class model also has class methods which are used in the game. The fi
 * PEP8 Validator
     * This application has been run through a PEP8 validator at [pep8online](http://pep8online.com/)
 
-<img src="docs/pep8-screenshot.png">
+![PEP8 Validator](docs/pep8-screenshot.png)
 
 * Bug checking
     * This application has been tested to ensure that all possible scenarios are achievable and that there are no obvious bugs.
@@ -141,19 +141,19 @@ In this section, I discuss and explain what output should be displayed if the pl
     * Input: The player types and enters an input that is not '1', '2', or '3'.
     * Ouput: The console displays the words: "Invalid choice option. Please input a number between 1 and 3.", and then allows the player another go at input.
 
-<img src="docs/start-menu-incorrect-input.png">
+![Test Cases](docs/start-menu-incorrect-input.png)
 
 * Name and Ship Name Incorrect Input
     * Input: The player does not input a name as a string that is between 4 and 10 characters that are all alphanumeric and that does not have any spaces in.
     * Output: The console displays the words: "Name must be between 4 and 10 alphanumeric characters without spaces." and allows the player to try again.
 
-<img src ="docs/name-and-ship-incorrect-input.png">
+![Test Name and Ship](docs/name-and-ship-incorrect-input.png)
 
 * Is this Correct? Incorrect Input
     * Input: After inputting a valid name, ship name or cargo list the game will ask the player to confirm their choice. The player does not type in 'Y' or 'y' for yes or 'N' or 'n' for no.
     * Output: The console displays the words: "Sorry, that choice is not available.", and allows them to retry inputting a correct value.
 
-<img src="docs/is-this-correct.png">
+![Test Is This Correct](docs/is-this-correct.png)
 
 * Cargo Choice Incorrect Input
     * Input: The player does not input a valid integer for the list of cargo items that are presented to them, between 1 and n (n being the amount of items left to choose from).
@@ -161,7 +161,7 @@ In this section, I discuss and explain what output should be displayed if the pl
     * Input: The player inputs something other than an integer for their choice of cargo.
     * Output: The console displays the words: "Please type your option as an available number." and gives the player a chance to retype their choice.
 
-<img src="docs/cargo-incorrect-input.png">
+![Test Cargo](docs/cargo-incorrect-input.png)
 
 * Scenario Choice Incorrect Input
     * Input: The player does not input a valid integer for the list of options that are presented to them, between 1 and n (n being the number of options left to choose from).
@@ -169,13 +169,13 @@ In this section, I discuss and explain what output should be displayed if the pl
     * Input: The player inputs something other than an integer for their choice of cargo.
     * Output: The console displays the words: "Please type your option as an available number." and gives the player a chance to retype their choice.
 
-<img src="docs/scenario-choice-incorrect-input.png">
+![Test Scenario](docs/scenario-choice-incorrect-input.png)
 
 * Replay Game Incorrect Input
     * Input: The player does not type in 'y' or 'Y' for yes or 'n' or 'N' for no when asked if they want to replay the game.
     * Output: The console displays the words: "Type Y for yes or N for no." and gives the player a chance to retype their choice.
 
-<img src="docs/replay-game-incorrect-input.png">
+![Test Replay](docs/replay-game-incorrect-input.png)
 
 [Back to Top](#goal-for-this-project)
 
