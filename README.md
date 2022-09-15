@@ -9,7 +9,7 @@ The game is simple, but is designed for people who would enjoy science fiction. 
 
 ![Responsive Displays](/docs/%20mockup-screenshot-image.png)
 
-Click [here](https://jureseselj.github.io/explore-the-world/) to play Enter The Void.
+Click [here](https://enter-the-void1.herokuapp.com/) to play Enter The Void.
 
 # Table of Contents
 
