@@ -505,8 +505,8 @@ class Player:
 
     def take_chance(self, factor):
         """
-        Decides whether player has survived risky action.
-        Generates random integer between 1 and 10 and
+        Decide whether player has survived risky action.
+        Generate random integer between 1 and 10 and
         then checks against factor to decide outcome.
         Parameters:
         factor (int): Integer that increases throughout game.
