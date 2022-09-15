@@ -213,10 +213,10 @@ The repository for the code was stored on GitHub. This was linked to Heroku to c
 The site was deployed to Heroku using the Code Institute's mock terminal for Heroku. Here is what I did to deploy my site to Heroku:
 * Clicked on "Create new app" on Heroku account and named app and selected region as 'Europe'.
 * Added PORT : 8000 to config vars in Settings.
-* Added heroku/python and heroku/nodejs buildpacks in Settings (in that order).
+* Added heroku/python and heroku/nodejs buildpacks in Settings.
 * Connected GitHub repository for Enter The Void.
 * Manually deployed main branch for Enter The Void.
-* Then switched to automatic deployment of main branch after confirming manual deployment had worked.
+
 
 # Credits
 
