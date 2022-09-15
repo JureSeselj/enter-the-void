@@ -227,8 +227,6 @@ For code inspiration, help and advice,
 * [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
 * [Free Code Camp](https://www.freecodecamp.org/learn)
 * [W3Schools](https://www.w3schools.com/)
-* [Heroku](https://www.heroku.com/) for the deployed project.
-* [pep8online](http://pep8online.com/) for the PEP8 validator.
 
 
 [Back to Top](#goal-for-this-project)
