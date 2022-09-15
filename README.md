@@ -86,14 +86,12 @@ In the game, after the player has decided to play the game at the start menu and
 
 The Player class model also has class methods which are used in the game. The first of these is the use_fuel method which reduces the fuel attribute by 1 and then returns either True or False. In game if True is returned then the scenario is cleared but if False is returned the player will fail the scenario and the game_over function will be called.  The second method of the Player class model is the take_chance method. This method takes an argument for the risk factor of a scenario (this is a factor that starts at 1 in the first scenario and increases by 2 each scenario until it reaches 9 in the final scenario) and generates a random integer from 1 to 10. If the randomly generated integer is larger than or equal to the risk factor then True will be returned and the player will pass the scenario but if it is less than the risk factor False will be returned and the player will fail the scenario.
 
-
 ## Imported Modules
 * random
     * Python's Random Module was imported into this project in order to generate random integers for the take_chance method of the Player class which returns either True or False and decides whether the player passes a scenario or fails and gets a game over.
 
 
 [Back to Top](#goal-for-this-project)
-
 
 # Prototype and Flowcharts
 
@@ -108,7 +106,6 @@ The Player class model also has class methods which are used in the game. The fi
 <img src="docs/function-flowchart.png">
 
 # Technologies Used
-
 ## Languages
 * [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript "JavaScript")
@@ -210,6 +207,7 @@ The site was initially developed and tested in the terminal of Gitpod. Here are 
 * Press command-c when wanting to exit the application.
 
 ## GitHub
+
 The repository for the code was stored on GitHub. This was linked to Heroku to create the site.
 
 ## Heroku
@@ -231,7 +229,6 @@ For code inspiration, help and advice,
 * [W3Schools](https://www.w3schools.com/)
 * [Heroku](https://www.heroku.com/) for the deployed project.
 * [pep8online](http://pep8online.com/) for the PEP8 validator.
-
 
 
 [Back to Top](#goal-for-this-project)
