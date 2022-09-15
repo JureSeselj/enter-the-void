@@ -15,7 +15,7 @@ WINNING_CARGO = ['Eclipse Shield Cygnus', 'Anti-Gravity Device',
 def quit_out():
     """
     Quit application.
-    Thank the player for playing and
+    Thanks the player for playing and
     then quits the application.
     Parameters: No parameters.
     Returns: No return values.
