@@ -22,7 +22,7 @@ Click [here](https://enter-the-void1.herokuapp.com/) to play Enter The Void.
     * [Leaderboard on Google Sheet](#leadeboard-on-google-sheet)
     * [More Methods and Cargo](#more-methods-and-cargo)
 * [Data Model](#data-model)
-* [Imported Modules](#imported-modules)
+    * [Imported Modules](#imported-modules)
 * [Prototype and Flowcharts](#prototype-and-flowcharts)
     * [Pseudocode flowchart](#pseudocode-flowchart)
     * [Function Flowchart](#function-flowchart)
@@ -30,9 +30,9 @@ Click [here](https://enter-the-void1.herokuapp.com/) to play Enter The Void.
     * [Languages](#languages)
     * [Tools](#tools)
 * [Testing](#testing)
-* [Test Cases](#test-cases)
+    * [Test Cases](#test-cases)
 * [Bugs](#bugs)
-* [Unfixed Bugs](#unfixed-bugs)
+    * [Unfixed Bugs](#unfixed-bugs)
 * [Deployment](#deployment)
     * [Gitpod](#gitpod)
     * [GitHub](#github)
@@ -98,12 +98,12 @@ The Player class model also has class methods which are used in the game. The fi
 ## Pseudocode flowchart
 * Here is a flowchart showing how the game functions with pseudocode.
 
-![Flowchart](docs/flowchart-screenshot.png)
+![Pseudocode Flowchart](docs/flowchart-screenshot.png)
 
 ## Function Flowchart
 * Here is a flowchart showing how the game functions with specific reference to functions in use.
 
-![Flowchart](docs/function-flowchart.png)
+![Function Flowchart](docs/function-flowchart.png)
 
 # Technologies Used
 ## Languages
