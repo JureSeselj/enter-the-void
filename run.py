@@ -369,7 +369,7 @@ def display_options(player_object):
     print(f'{counter}) Burn fuel to escape the situation. [Fuel = '
           f'{player_object.fuel}]')
     counter += 1
-    print(f'{counter}) Perform a risky maneuver.'
+    print(f'{counter}) Perform a risky maneuver.')
 
 
 def scenario_intro(number, player_object):
