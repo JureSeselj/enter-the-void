@@ -199,7 +199,7 @@ def decide_on_items():
     """
     Ask the player to choose three items out of potential 5.
     Ask player to choose items and presents a shrinking list
-    as they pick more. Appends a new list that is used for the
+    as they pick more. Append a new list that is used for the
     Player instance.
     Parameters: No parameters.
     Returns:
