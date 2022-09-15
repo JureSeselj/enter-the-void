@@ -141,7 +141,7 @@ In this section, I discuss and explain what output should be displayed if the pl
     * Input: The player types and enters an input that is not '1', '2', or '3'.
     * Ouput: The console displays the words: "Invalid choice option. Please input a number between 1 and 3.", and then allows the player another go at input.
 
-<img src="">
+<img src="docs/start-menu-incorrect-input.png">
 
 * Name and Ship Name Incorrect Input
     * Input: The player does not input a name as a string that is between 4 and 10 characters that are all alphanumeric and that does not have any spaces in.
