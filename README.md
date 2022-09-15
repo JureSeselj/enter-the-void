@@ -153,7 +153,7 @@ In this section, I discuss and explain what output should be displayed if the pl
     * Input: After inputting a valid name, ship name or cargo list the game will ask the player to confirm their choice. The player does not type in 'Y' or 'y' for yes or 'N' or 'n' for no.
     * Output: The console displays the words: "Sorry, that choice is not available.", and allows them to retry inputting a correct value.
 
-<img src="">
+<img src="docs/is-this-correct.png">
 
 * Cargo Choice Incorrect Input
     * Input: The player does not input a valid integer for the list of cargo items that are presented to them, between 1 and n (n being the amount of items left to choose from).
