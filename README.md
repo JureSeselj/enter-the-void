@@ -119,6 +119,8 @@ The Player class model also has class methods which are used in the game. The fi
 * [Gitpod](https://www.gitpod.io/ "Gitpod")
 * [Mockup Generator](https://techsini.com/multi-mockup/index.php "Multi Device Website Mockup Generator")
 * [Heroku](https://id.heroku.com/login "Heroku")
+* [Figma](https://www.figma.com "Figma") 
+
 
 [Back to Top](#goal-for-this-project)
 
@@ -227,7 +229,7 @@ For code inspiration, help and advice,
 * [W3Schools](https://www.w3schools.com/)
 * [Heroku](https://www.heroku.com/) for the deployed project.
 * [pep8online](http://pep8online.com/) for the PEP8 validator.
-* [Lucidchart](https://www.lucidchart.com/pages/) for the flowcharts I created.
+
 
 
 [Back to Top](#goal-for-this-project)
