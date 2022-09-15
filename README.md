@@ -227,6 +227,8 @@ For code inspiration, help and advice,
 * [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
 * [Free Code Camp](https://www.freecodecamp.org/learn)
 * [W3Schools](https://www.w3schools.com/)
+* [YouTube](https://www.youtube.com/)
+* [CodePen](https://codepen.io/)
 
 
 [Back to Top](#goal-for-this-project)
