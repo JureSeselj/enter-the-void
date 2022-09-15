@@ -41,20 +41,20 @@ Click [here](https://enter-the-void1.herokuapp.com/) to play Enter The Void.
 
 # Features
 
-* Start Menu
+* Start Menu :
     * The player is taken to a start menu to begin with. Here they are prompted to choose between numbers 1-3 with details next to the numbers. 
     * If the player inputs 1 they are taken to the introduction text of the game and then to create their player object.
     * If the player inputs 2 they are taken to the instructions text and then back to the start menu.
     * If the player inputs 3 they exit the application.
     * If they input an invalid repsonse they are asked to input a valid response.
 
-* Create Player
+* Create Player :
     * The player is asked to name their captain and their ship. The names must be between 4 and 15 alphanumeric characters without spaces and if they aren't the player is prompted to do this.
     * They are asked if these names are correct and if not this happens again in a loop but if so moves on to the player choosing what cargo they want. The player confirms their choice by responding by inputting 'Y' or 'N'. 
     * They are then asked to choose from five pieces of cargo with number inputs. The cargo list shrinks when taken from and choosing a non integer causes the game to ask the player to type an available number and typing an out of index number causes the game to tell the player what number range is available.
     * The player is asked if the cargo is good when they have selected three pieces and if the player decides they aren't the process starts again but if they are the player object is created using the captain name, ship name and the cargo chosen. The player object also has two methods which allow it to use fuel and take a chance in a scenario.  
 
-* Scenario 
+* Scenario : 
     * The player is then taken to the scenario where they are given an introductory message and are given the options of what they can do in available numbers. 
     * Choosing an incorrect option will ask the player to type an integer if they create an index error or will give the range of integers available if the players input is outside of index bounds.
     * Other than using available cargo items, the player can burn fuel (starts at 2 and decreases after every use) and take a risk with the two class methods of the player class.
@@ -63,7 +63,7 @@ Click [here](https://enter-the-void1.herokuapp.com/) to play Enter The Void.
     * Taking a chance returns a random integer between 1 and 10. If the player scores higher than the scenario's 'risk factor' then they succeed otherwise they fail. Each scenario increases the risk factor by 2; so scenario 1 is a 1 and always winnable but scenario 5 is a 9 and very risky for the player.
     * Succeeding in a scenario takes you to the next scenario or victory if all scenarios are complete but failing takes you to the game over.
 
-* Victory and Game Over
+* Victory and Game Over :
     * Whether the player achieves victory or gets a game over, they will be asked if they want to replay the game. 
     * If they choose no they will exit the application.
     * If they choose yes they will be taken back to the start menu.
@@ -98,12 +98,12 @@ The Player class model also has class methods which are used in the game. The fi
 ## Pseudocode flowchart
 * Here is a flowchart showing how the game functions with pseudocode.
 
-<img src="docs/flowchart-screenshot.png">
+![Flowchart](docs/flowchart-screenshot.png)
 
 ## Function Flowchart
 * Here is a flowchart showing how the game functions with specific reference to functions in use.
 
-<img src="docs/function-flowchart.png">
+![Flowchart](docs/function-flowchart.png)
 
 # Technologies Used
 ## Languages
